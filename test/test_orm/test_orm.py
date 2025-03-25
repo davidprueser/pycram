@@ -75,7 +75,6 @@ class ORMTestSchemaTestCase(DatabaseTestCaseMixin, unittest.TestCase):
 
 
 class ORMTaskTreeTestCase(DatabaseTestCaseMixin):
-
     @with_tree
     def plan(self):
         object_description = object_designator.ObjectDesignatorDescription(names=["milk"])
